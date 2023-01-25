@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "wrangler dev"
+  },
   "devDependencies": {
     "wrangler": "^2.8.1"
   }
