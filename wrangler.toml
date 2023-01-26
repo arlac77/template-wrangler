@@ -1,4 +1,5 @@
 name = "{{name}}"
 main = "src/index.mjs"
 workers_dev = true
+node_compat = true
 compatibility_date = "2023-01-15"
