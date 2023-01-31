@@ -5,7 +5,7 @@
   "devDependencies": {
     "wrangler": "^2.9.0"
   },
-  "templates": {
+  "template": {
     "mergers": [ 
     {
     "type": "TOML",
