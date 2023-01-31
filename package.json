@@ -3,7 +3,7 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "wrangler": "^2.8.1"
+    "wrangler": "^2.9.0"
   },
   "templates": {
     "mergers": [ 
