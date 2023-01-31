@@ -4,5 +4,13 @@
   },
   "devDependencies": {
     "wrangler": "^2.8.1"
+  },
+  "templates": {
+    "mergers": [ 
+    {
+    "type": "TOML",
+    "pattern": "wrangler.toml"
+    }
+    ]
   }
 }
