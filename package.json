@@ -9,7 +9,8 @@
     "mergers": [ 
     {
     "type": "TOML",
-    "pattern": "wrangler.toml"
+    "pattern": "wrangler.toml",
+    "options": { "expand": true }
     }
     ]
   }
