@@ -12,7 +12,13 @@
         "type": "TOML",
         "pattern": "wrangler.toml",
         "options": {
-          "expand": true
+          "messagePrefix": "chore(wrangler): ",
+          "expand": true,
+          "mergeHints": {
+            "*": {
+              "overwrite": false
+            }
+          }
         }
       }
     ]
