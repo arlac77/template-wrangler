@@ -7,12 +7,14 @@
     "wrangler": "^2.9.0"
   },
   "template": {
-    "mergers": [ 
-    {
-    "type": "TOML",
-    "pattern": "wrangler.toml",
-    "options": { "expand": true }
-    }
+    "mergers": [
+      {
+        "type": "TOML",
+        "pattern": "wrangler.toml",
+        "options": {
+          "expand": true
+        }
+      }
     ]
   }
 }
