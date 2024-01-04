@@ -21,6 +21,9 @@
           }
         }
       }
+    ],
+    "usedBy": [
+      "arlac77/worker-auth-provider"
     ]
   }
 }
