@@ -23,7 +23,8 @@
       }
     ],
     "usedBy": [
-      "arlac77/worker-auth-provider"
+      "arlac77/worker-auth-provider",
+      "konsumation/konsum-cloudflare-worker"
     ]
   }
 }
