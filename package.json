@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "wrangler dev",
-    "publish": "wrangler deploy"
+    "wrangler:publish": "wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "^3.68.0"
