@@ -1,5 +1,5 @@
 name: Deploy
-'on':
+on:
   push:
     branches:
       - master
@@ -17,7 +17,11 @@ jobs:
           cache: npm
       - name: install
         run: npm ci
-      - run: npm run publish
+      - name: publish wrangler
+        uses: cloudflare/wrangler-action@v3.7.0
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      - name: publish
+        run: npm run publish
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
- 
