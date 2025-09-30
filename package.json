@@ -4,7 +4,7 @@
     "wrangler:publish": "wrangler deploy"
   },
   "devDependencies": {
-    "wrangler": "^4.39.0"
+    "wrangler": "^4.40.2"
   },
   "template": {
     "mergers": [
